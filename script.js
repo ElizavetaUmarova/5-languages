@@ -14,6 +14,9 @@ switch (true) {
     case userLanguage === 'El':
        console.log('Καλησπέρα!');
     break;
+    case userLanguage === 'PT':
+       console.log('Boa tarde!');
+    break;
     default:
     console.log('Ошибка');
 }
